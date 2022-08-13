@@ -33,6 +33,9 @@ i {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #222;
+    background-color: rgb(253, 253, 253);
+    margin-bottom: 15px;
+    padding: 15px;
 }
 
 .option {
