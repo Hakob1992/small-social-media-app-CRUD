@@ -1,0 +1,45 @@
+body {
+    margin: 0 50px;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+i {
+    cursor: pointer;
+}
+
+#form button {
+    width: 40%;
+}
+
+#posts {
+    width: 400px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+.option {
+    display: flex;
+    gap: 25px;
+}
+
+#msg {
+    color: red;
+}
